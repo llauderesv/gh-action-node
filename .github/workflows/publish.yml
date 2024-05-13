@@ -8,6 +8,8 @@ permissions:
   packages: write
   contents: read
 
+run-name: Publish to Docker
+
 jobs:
   publish:
     runs-on: ubuntu-latest
